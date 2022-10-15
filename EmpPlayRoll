@@ -1,5 +1,28 @@
-================================================================================
-================================================================================
-						Welcome to MySQL Databases
-================================================================================
-================================================================================
+===================================================
+UC1: Ability to create a payroll service database
+====================================================
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| bridgelabz         |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (1.92 sec)
+
+mysql> create database Payroll_Service;
+Query OK, 1 row affected (1.03 sec)
+
+mysql> use payroll_service;
+Database changed
+mysql> SELECT DATABASE();
++-----------------+
+| DATABASE()      |
++-----------------+
+| payroll_service |
++-----------------+
+1 row in set (0.00 sec)
